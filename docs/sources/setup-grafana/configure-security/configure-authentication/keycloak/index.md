@@ -21,6 +21,8 @@ Refer to [Generic OAuth authentication](../generic-oauth) for extra configuratio
 You may have to set the `root_url` option of `[server]` for the callback URL to be
 correct. For example in case you are serving Grafana behind a proxy.
 
+> **Note**: These configuration options should be made in the `grafana.ini` file located at `/etc/grafana` in linux systems
+
 Example config:
 
 ```ini
